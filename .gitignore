@@ -9,3 +9,22 @@ __pycache__/
 *.mp4
 *.mov
 video/
+
+# Secrets: never commit environment files, keys or credentials
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+secrets.*
+credentials.*
+*credentials*.json
+*service-account*.json
+*_token
+*.token
+.netrc
