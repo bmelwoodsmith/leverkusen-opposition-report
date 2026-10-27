@@ -1,0 +1,10 @@
+jupyter==1.1.1
+matplotlib==3.11.2
+mplsoccer==1.8.1
+numpy==2.5.4
+pandas==3.0.6
+pyarrow==26.0.0
+scikit-learn==1.9.1
+seaborn==0.13.2
+statsbombpy==1.22.0
+adjustText==1.4.0

@@ -1,0 +1,11 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Broadcast footage stays out of the repo
+*.mp4
+*.mov
+video/
