@@ -7,6 +7,8 @@ Data: [StatsBomb Open Data](https://github.com/statsbomb/open-data). All 34 leag
 
 **Read the report:** [report/Leverkusen_2023-24_Opposition_Report.pdf](report/Leverkusen_2023-24_Opposition_Report.pdf)
 
+**Watch the video analysis:** [youtube.com/watch?v=JNXC03EhMBE](https://www.youtube.com/watch?v=JNXC03EhMBE)
+
 ## Main findings
 - High pressing cuts Leverkusen's progression: build-ups reaching the final third fall from 60% to 45% (38% at level scores).
 - At level scores, a high press roughly breaks even on chances. Most of its cost came when opponents were already behind and chasing the game.
@@ -55,7 +57,7 @@ Each analysis module (`analysis.py`, `case_study.py`, `network.py`, `risk.py`, `
 - `src/game_state.py`: score-state check, late goals
 - `src/late_goals.py`: why Leverkusen score so many late goals
 - `src/clip_list.py`: exact video moments for each recommendation (`report/clip_list.csv`)
-- `report/stills/`: annotated freeze frames from my video review (Video A–F in the report). The video itself is not in the repo because the footage belongs to the broadcaster.
+- `report/stills/`: annotated freeze frames from my video review (Video A–F in the report). The video file is not in the repo because the footage belongs to the broadcaster; the annotated analysis is [on YouTube](https://www.youtube.com/watch?v=JNXC03EhMBE).
 - `src/defending.py`: Leverkusen's press, counter-press, where they concede
 - `src/uncertainty.py`: cluster bootstrap intervals
 - `src/figures.py`: all report charts
